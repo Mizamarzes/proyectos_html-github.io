@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}   
+#principal{
+    width: 1200px;
+    height: 700px;
+
+    margin: 0.5em auto;
+    padding: 2em;
+    border: black 2px solid;
+}
+
+#menu{
+    width: 1000px;
+    height: 100px;
+
+    background-color: orange;
+    border: black 2px solid;
+}
+
+.articulo{
+    width: 247px;
+    height: 100px;
+
+    background-color: aqua;
+    float: left;
+    border: black 2px solid;
+}
+
+#barra_izq{
+    width: 245px;
+    height: 300px;
+
+    background-color: green;
+    float: left;
+    border: black 2px solid;
+}
+
+.seccion{
+    width: 495px;
+    height: 98px;
+
+    background-color: blue;
+    float: left;
+    border: black 2px solid;
+}
+
+#barra_der{
+    width: 245px;
+    height: 300px;
+
+    background-color: green;
+    float: left;
+    border: black 2px solid;
+
+}
