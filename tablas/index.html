@@ -7,12 +7,16 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
+        <!-- TABLA 1--------------------------------------------------------- -->
+
+
         <h1>El desempleo en España</h1>
         <p>La siguiente tabla muestra la evolucion del desempleo en España, comparado con la media de los 27 paises de la Union Europea,
            Grecia, que compite con España en ser el primero en esta vergonzosa competicion y Estados Unidos y Japon, de dos de las primeras
            economias mundiales.
         </p>
-        <table id="table01">
+        <table>
             <tr>
                 <th>País</th>
                 <th>2000</th>
@@ -118,6 +122,8 @@
         </table>
         <p>Fuente: <a href="https://www.dane.gov.co/index.php/estadisticas-por-tema/mercado-laboral/empleo-y-desempleo" target="_blank">indice de desempleo anual</a>, Eurostat</p>
 
+        <!-- TABLA 2--------------------------------------------------------- -->
+
         <br>
         <h1>Tabla 2</h1>
 
@@ -150,37 +156,53 @@
             </tr>
         </table>
 
-        <!--  -->
+        <!-- TABLA 3--------------------------------------------------------- -->
 
         <br>
         <h1>Tabla 3</h1>
         
         <table>
             <tr>
-                <td>Lunes</td>
-                <td>Martes</td>
-                <td>Miercoles</td>
-                <td>Jueves</td>
-                <td>Viernes</td>
+                <th scope="rowgroup" rowspan="3">Day</th>
+                <th scope="rowgroup" colspan="3">Seminar</th>
             </tr> 
             <tr>
-                <td scope="rowgroup" rowspan="1">Mates</td>
-                <td scope="rowgroup" colspan="3" rowspan="2">Dibujo</td>
-                <td scope="rowgroup" rowspan="3">Historia</td>
+                <th scope="rowgroup" colspan="2">Schedule</th>
+                <th scope="rowgroup" rowspan="2">Topic</th>
             </tr>
             <tr>
-                <td scope="rowgroup" rowspan="3">Fisica</td>
+                <th>Begin</th>
+                <th>End</th>
             </tr>
             <tr>
-                <td>Descanso</td>
-                <td>Descanso</td>
-                <td>Descanso</td>
+                <td scope="rowgroup" rowspan="2">Monday</td>
+                <td scope="rowgroup" rowspan="2">8:00 a.m.</td>
+                <td scope="rowgroup" rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
             </tr>
             <tr>
-                <td>Gimnasia</td>
-                <td>..futbolin..</td>
-                <td>Gimnasia</td>
-                <td>Mates</td>
+                <td>Validity: DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td scope="rowgroup" rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td scope="rowgroup" rowspan="1">XPath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m.</td>
+                <td>2:00 a.m.</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m.</td>
+                <td>5:00 p.m.</td>
+                <td scope="rowgroup" rowspan="1">XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m.</td>
+                <td>XSL Formatting Objects</td>
             </tr>
         </table>
     </body>
